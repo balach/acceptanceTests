@@ -1,0 +1,17 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "Acceptance Tests for Testaroo",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha 'testcases/*.spec.js' --reporter mochawesome"
+  },
+  "dependencies": {
+    "should": "latest",
+    "mochawesome": "latest",
+    "mocha": "latest",
+    "supertest": "latest"
+  },
+  "author": "Balach Hussain",
+  "license": "MIT"
+}
