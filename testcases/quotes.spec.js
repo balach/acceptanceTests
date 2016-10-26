@@ -20,7 +20,7 @@ describe('API Tests', function() {
         done();
       });
   });
-  it('should return version number', function(done) {
+  it.skip('should return version number', function(done) {
     server
       .post('/quote')
       .end(function(err, res) {

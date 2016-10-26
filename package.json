@@ -8,9 +8,9 @@
   },
   "dependencies": {
     "should": "latest",
-    "mochawesome": "latest",
     "mocha": "latest",
-    "supertest": "latest"
+    "supertest": "latest",
+    "mochawesome": "latest"
   },
   "author": "Balach Hussain",
   "license": "MIT"
